@@ -4,6 +4,7 @@ import Lessson_1.task.*;
 
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -25,11 +26,20 @@ public class Main {
 //        System.out.printf("2^-2 = %f\n", Task6.power(2, -2));
 //        System.out.printf("3^0 = %f\n", Task6.power(3, 0));
         // Task 7
-        try {
-            Task7.WriteFile("data.txt");
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-
+//        try {
+//            Task7.WriteFile("data.txt");
+//        } catch (IOException e) {
+//            throw new RuntimeException(e);
+//        }
+        // Home task 8
+//        TaskHome8.GetTriangleNumber();
+        // Home task 9
+//        TaskHome9.GetFactorial();
+        // Home task 10
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.print("Введите число: ");
+//        TaskHome10.PrintPrimeNumbers(Integer.parseInt(scanner.next()));
+        // Home task 11
+        TaskHome11.RunCalculator();
     }
 }
