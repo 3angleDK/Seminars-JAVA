@@ -16,5 +16,6 @@ public class TaskHome10 {
                 System.out.printf("%d, ", i);
             }
         }
+        System.out.println();
     }
 }
