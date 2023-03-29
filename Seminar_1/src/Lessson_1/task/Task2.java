@@ -7,7 +7,7 @@ public class Task2 {
     public static void hello() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите имя: ");
-        String name = scanner.next();
+        String name = scanner.nextLine();
         System.out.println("Hello " + name);
         LocalTime now = LocalTime.now();
         if (now.isAfter(LocalTime.of(5, 0)) &&
@@ -22,5 +22,6 @@ public class Task2 {
         } else {
             System.out.println("Доброй ночи, " + name);
         }
+//        scanner.close();
     }
 }

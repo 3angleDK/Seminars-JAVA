@@ -8,37 +8,37 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-//        Task1 task1 = new Task1();
-//        task1.hello();
+        Task1 task1 = new Task1();
+        task1.hello();
         // Task 2
-//        Task2.hello();
+        Task2.hello();
         // Task 3
-//        int[] arr = new int[] {1, 1, 0, 1, 1, 1};
-//        System.out.printf("Максимальное количество подряд идущих 1: %d", Task3.UnityCount(arr));
+        int[] arr = new int[] {1, 1, 0, 1, 1, 1};
+        System.out.printf("Максимальное количество подряд идущих 1: %d", Task3.UnityCount(arr));
         // Task 4
-//        int[] arr = new int[] {3, 2, 2, 3, 1, 8, 4, 3, 0};
-//        Task4.ReorderArray(arr, 3);
-//        System.out.println(Arrays.toString(arr));
+        arr = new int[] {3, 2, 2, 3, 1, 8, 4, 3, 0};
+        Task4.ReorderArray(arr, 3);
+        System.out.println(Arrays.toString(arr));
         // Task 5
-//        System.out.println(Task5.ReorderWords("Добро пожаловать на курс по Java"));
+        System.out.println(Task5.ReorderWords("Добро пожаловать на курс по Java"));
         // Task 6
-//        System.out.printf("3^2 = %f\n", Task6.power(3, 2));
-//        System.out.printf("2^-2 = %f\n", Task6.power(2, -2));
-//        System.out.printf("3^0 = %f\n", Task6.power(3, 0));
+        System.out.printf("3^2 = %f\n", Task6.power(3, 2));
+        System.out.printf("2^-2 = %f\n", Task6.power(2, -2));
+        System.out.printf("3^0 = %f\n", Task6.power(3, 0));
         // Task 7
-//        try {
-//            Task7.WriteFile("data.txt");
-//        } catch (IOException e) {
-//            throw new RuntimeException(e);
-//        }
+        try {
+            Task7.WriteFile("data.txt");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
         // Home task 8
-//        TaskHome8.GetTriangleNumber();
+        TaskHome8.GetTriangleNumber();
         // Home task 9
-//        TaskHome9.GetFactorial();
+        TaskHome9.GetFactorial();
         // Home task 10
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.print("Введите число: ");
-//        TaskHome10.PrintPrimeNumbers(Integer.parseInt(scanner.next()));
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Введите число: ");
+        TaskHome10.PrintPrimeNumbers(Integer.parseInt(scanner.next()));
         // Home task 11
         TaskHome11.RunCalculator();
     }
