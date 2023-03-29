@@ -1,0 +1,12 @@
+.git
+.gitignore
+.idea
+files.txt
+libs
+logger.log.0
+logger.log.1
+logger.log.2
+out
+Seminar_2.iml
+src
+test.txt
