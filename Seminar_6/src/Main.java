@@ -9,7 +9,7 @@ import java.util.Set;
 public class Main {
     public static void main(String[] args) {
         // Task 1
-//        System.out.println(Task1.getUniquePercent(Task1.fillArray(1000)));
+        System.out.println(Task1.getUniquePercent(Task1.fillArray(1000)));
         // Home task
         List<Notebook> notebooks = new ArrayList<>();
         notebooks.add(new Notebook("Apple", 16, 250, "Mac OS", "red"));
